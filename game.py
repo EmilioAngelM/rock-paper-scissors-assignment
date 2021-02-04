@@ -2,7 +2,7 @@
 
 
 
-
+import random
 
 print("-------------------")
 print("Welcome 'Player One' to my Rock-Paper-Scissors game...")
@@ -22,14 +22,16 @@ print(user_choice)
 print(f"You chose: {user_choice}")
 
 
+#simulating a computer input
+computer_choice = "paper"
+
+print(f"The computer chose: {computer_choice}")
 
 
 
-exit()
 
-
-
-
+options = ["rock","paper", "scissors"]
+computer_choice = random.choice(options)
 
 
 
@@ -37,12 +39,13 @@ exit()
 
 #simulating a computer input
 
-print("The computer chose: 'paper'")
 
 
 
 
 
+
+exit()
 #Determining who won
 
 print("-------------------")
