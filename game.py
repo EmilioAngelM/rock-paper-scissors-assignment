@@ -73,5 +73,4 @@ elif user_choice == "scissors" and computer_choice == "rock":
 
 
 
-exit()
-
+print("Thank you for playing! Please play again!")
