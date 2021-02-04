@@ -23,19 +23,16 @@ print(f"You chose: {user_choice}")
 
 
 #simulating a computer input
-computer_choice = "paper"
 
+
+
+
+options = ["rock","paper", "scissors"]
+computer_choice = random.choice(options)
 print(f"The computer chose: {computer_choice}")
 
 
-
-#simulating a computer input
-options = ["rock","paper", "scissors"]
-computer_choice = random.choice(options)
-
-
-
-
+#simulating a message that announces the winner
 
 if user_choice == computer_choice:
     print("It is a tie!")
