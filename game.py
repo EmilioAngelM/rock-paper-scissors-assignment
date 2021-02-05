@@ -1,11 +1,18 @@
 #game.py
 
 
-
+import os
 import random
 
+from dotenv import load_dotenv
+
+load_dotenv()  # take environment variables from .env.
+
+PLAYER_NAME = os.getenv("PLAYER_NAME", default="Player One")
+
+
 print("-------------------")
-print("Welcome 'Player One' to my Rock-Paper-Scissors game...")
+print(f"Welcome '{PLAYER_NAME}' to my Rock-Paper-Scissors game...")
 print("-------------------")
 
 
