@@ -4,9 +4,6 @@
 
 import random
 
-
-
-
 print("-------------------")
 print("Welcome 'Player One' to my Rock-Paper-Scissors game...")
 print("-------------------")
@@ -53,7 +50,7 @@ print(f"The computer chose: {computer_choice}")
 
 
 #Determining who won
-#simulating a message that announces the winner
+#Adapted from solution shared by William Perrone in class
 
 if user_choice == computer_choice:
     print("It is a tie!")
