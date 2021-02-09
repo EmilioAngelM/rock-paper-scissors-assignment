@@ -8,7 +8,7 @@
 
 ## Installation
 
-Fork this [remote repository] https://github.com/EmilioAngelM/rock-paper-scissors-assignment under your own control, then "clone" or download your remote copy onto your local computer.
+Fork this remote repository https://github.com/EmilioAngelM/rock-paper-scissors-assignment under your own control, then "clone" or download your remote copy onto your local computer.
 
 Then navigate there from the command line (subsequent commands assume you are running them from the local repository's root directory):
 
@@ -33,7 +33,7 @@ pip install python-dotenv
 
 ## Setup
 
-In the root directory of your local repository, create a new file with the name ".env." Then, create a "PLAYER_NAME" variable that contains your name:
+In the root directory of your local repository, create a new file with the name ".env." In the ".env" file, create a "PLAYER_NAME" variable that contains your name:
 
     PLAYER_NAME="Your Name"
 
