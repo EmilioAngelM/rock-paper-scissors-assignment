@@ -1,4 +1,8 @@
-# rock-paper-scissors-assignment
+# Rock-paper-scissors Game
+
+## Description
+
+This is a rock-paper-scissors game.
 
 ## Prerequisites
 
