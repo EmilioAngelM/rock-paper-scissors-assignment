@@ -33,15 +33,12 @@ pip install python-dotenv
 
 ## Setup
 
-In in the root directory of your local repository, open the ".env" file, and update the player name string value by using your name:
+In in the root directory of your local repository, create a new file with the name ".env." The create a "PLAYER_NAME" variable that contains your name:
 
-From:
-    PLAYER_NAME="Emilio Angel"
-
-To:
     PLAYER_NAME="YOUR NAME"
 
-> NOTE: the ".env" file is usually the place for passing configuration options and secret credentials, so as a best practice we don't upload this file to version control (which is accomplished via a corresponding entry in the [.gitignore](/.gitignore) file)
+Example: 
+    PLAYER_NAME="Emilio Angel"
 
 ## Usage
 
